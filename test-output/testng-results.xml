@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-31T12:47:33 IST" name="Default suite" finished-at="2025-07-31T12:47:53 IST" duration-ms="20539">
+    <groups>
+    </groups>
+    <test started-at="2025-07-31T12:47:33 IST" name="Default test" finished-at="2025-07-31T12:47:53 IST" duration-ms="20539">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:33 IST" name="setUp" finished-at="2025-07-31T12:47:36 IST" duration-ms="3401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithCredentials()[pri:1, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:36 IST" name="loginWithCredentials" finished-at="2025-07-31T12:47:37 IST" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCredentials -->
+        <test-method signature="createCustomer()[pri:2, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:37 IST" name="createCustomer" finished-at="2025-07-31T12:47:40 IST" depends-on-methods="tests.LoginTest.loginWithCredentials" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="editCategory()[pri:3, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:40 IST" name="editCategory" finished-at="2025-07-31T12:47:44 IST" depends-on-methods="tests.LoginTest.loginWithCredentials" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCategory -->
+        <test-method signature="afterEdit()[pri:4, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:44 IST" name="afterEdit" finished-at="2025-07-31T12:47:45 IST" depends-on-methods="tests.LoginTest.loginWithCredentials" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEdit -->
+        <test-method signature="DeleteCustomer()[pri:5, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:45 IST" name="DeleteCustomer" finished-at="2025-07-31T12:47:50 IST" depends-on-methods="tests.LoginTest.loginWithCredentials" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method signature="loginWithInvalidCredentials()[pri:6, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:50 IST" name="loginWithInvalidCredentials" finished-at="2025-07-31T12:47:53 IST" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@53045c6c]" started-at="2025-07-31T12:47:53 IST" name="tearDown" finished-at="2025-07-31T12:47:53 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
